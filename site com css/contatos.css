@@ -1,0 +1,32 @@
+* {
+    font-size: larger;
+    background-color: darkgray;
+}
+#nome {
+    color: white;
+}
+
+#telefone {
+    color: white;
+}
+
+#e-mail {
+    color: white;
+}
+
+#mensagem {
+    color: white;
+}
+
+.enviar {
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+}
+
+.enviar:hover {
+    color: blueviolet;
+    
+}
+
