@@ -1,0 +1,37 @@
+
+*  {
+   margin: 0%;
+    font-size: 23px;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    @import url'https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap'
+
+}
+
+main {
+    background-color:darkgray;
+    display: flex;
+    flex-direction: no;
+    align-items: center;
+ }
+    
+#image {
+    border-radius: 50%;
+  margin-right: 25px;
+}
+
+.h1main {
+  
+    font-size: 100px;
+    display: flex;
+    align-items:center ;
+    justify-content:center;
+}
+
+.hrmain {
+    border: 1px solid black;
+}
+
+#h1sociais {
+    justify-content: flex-end;
+}
+
