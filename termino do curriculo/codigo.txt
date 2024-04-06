@@ -1,0 +1,42 @@
+* { 
+    background-color: cornsilk;
+    text-align: center;
+    font-size: 23px;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    @import url'https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap' 
+}
+
+#nome {
+    color: black;
+}
+
+#telefone {
+    color: black;;
+}
+
+#e-mail {
+    color: black;
+}
+
+#mensagem {
+    color: black;
+}
+
+#envair {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background: linear-gradient(blue, purple);
+    color: white;
+    border: 4px inset black;
+    height: 60px;
+    width: 150px;
+}
+
+.enviar:hover {
+    color: aquamarine;
+    transition: all 15s ease-in-out;
+    border-radius: 50%;
+}
+
+
+

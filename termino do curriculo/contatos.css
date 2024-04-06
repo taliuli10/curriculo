@@ -1,0 +1,64 @@
+* { 
+    background-color: cornsilk;
+    text-align: center;
+    font-size: 23px;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    @import url'https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap' 
+}
+
+.h2contateme {
+    color: blue;
+}
+
+#nome {
+    border: 2px solid black;
+    transition: border-color 0.3s ease;
+    
+}
+ 
+#nome:active {
+    border-color: #f00;  
+}
+
+#telefone {
+    color: black;;
+    border: 2px solid black;
+    text-align: start;
+    
+}
+
+#e-mail {
+    color: black;
+    border: 2px solid black;
+    text-align: start;
+}
+
+#mensagem {
+    color: black;
+    width: 349px;
+    height: 91px; 
+    border: 2px solid black;
+    text-align: start;
+}
+
+.enviar {
+    transition: color 0.5s ease-in-out, transform 0.8s ease-in-out;
+    color: white;
+    border-radius: 22px;
+    width: 95px;
+    height: 45px;
+    border: 2px solid black;
+    background: linear-gradient(blue, black);
+    cursor: pointer;
+    
+}
+
+.enviar:hover {
+    color: #e63a56;
+    transform: scale(1.1);
+    background-color: black;
+    
+}
+
+
+
